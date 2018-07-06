@@ -36,6 +36,6 @@
     * 2.4.5.UIL相关问题
     * 2.4.6.lint检查
     * 2.4.7.koltin相关问题
-* 3.Java基础
-* 4.Java进阶
+* [3.Java基础](3javaji-chu.md)
+* [4.Java进阶](4javajin-jie.md)
 
