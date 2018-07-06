@@ -9,7 +9,33 @@
   * 1.5.Fragment相关
   * 1.6.Webview相关
   * 1.7.动画相关
-* 2.Android进阶
+  * 1.8.binder相关
+  * 1.9.Android异步消息处理机制
+  * 1.10.View相关
+* [2.Android进阶](2androidjin-jie.md)
+  * [2.1.Android异常](2androidjin-jie/21androidyi-chang.md)
+    * 2.1.1.anr异常相关
+    * 2.1.2.oom异常相关
+  * [2.2.性能优化相关](2androidjin-jie/22xing-neng-you-hua-xiang-guan.md)
+    * 2.2.1.Bitmap面试相关
+    * [2.2.2.UI卡顿相关问题](2androidjin-jie/22xing-neng-you-hua-xiang-guan/222uiqia-dun-xiang-guan-wen-ti.md)
+    * 2.2.3.内存泄漏相关
+    * 2.2.4.内存管理
+    * 2.2.5.冷启动优化
+    * 2.2.6.其他优化
+  * [2.3.开源框架相关](2androidjin-jie/23kai-yuan-kuang-jia-xiang-guan.md)
+    * 2.3.1.Okhttp网络框架
+    * 2.3.2.Retrofit网络框架
+    * 2.3.3.Butterknife注解框架
+    * 2.3.4.Glide图片框架
+  * [2.4.热门前沿知识相关](2androidjin-jie/24re-men-qian-yan-zhi-shi-xiang-guan.md)
+    * 2.4.1.MVC\MVP\MVVM架构设计模式
+    * 2.4.2.Android插件化
+    * 2.4.3. Android热更新
+    * 2.4.4.进程保活相关
+    * 2.4.5.UIL相关问题
+    * 2.4.6.lint检查
+    * 2.4.7.koltin相关问题
 * 3.Java基础
 * 4.Java进阶
 
