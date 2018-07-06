@@ -13,3 +13,19 @@
 
 
 
+三、横竖屏切换
+
+```
+          onPause() --> onSaveInstanceState() --> onStop() -->onDestroy() --> onCreate()
+          
+          --> onStart() --> onResume()
+```
+
+
+
+
+
+
+
+
+
