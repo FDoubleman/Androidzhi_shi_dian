@@ -28,17 +28,154 @@ onCreate\(\)---&gt;onStartCommand\(\)（onStart\(\)方法已过时） ---&gt; on
 
 ---
 
-相关代码
+相关代码：
 
-//连续启动Service
+方式一、
 
-        Intent intentOne = new Intent\(this, TestOneService.class\);
+```java
+    //启动Service
+    Intent intentOne= new Intent(this, TestOneService.class);
 
-        startService\(intentOne\);
+    startService(intentOne);
+    
+    //停止Service
+    Intent intentFour = new Intent(this, TestOneService.class);
+    stopService(intentFour);
+    
+    
+```
 
+方式二、
 
+```java
+public class TestTwoService extends Service{
 
+    //client 可以通过Binder获取Service实例
+    public class MyBinder extends Binder {
+        public TestTwoService getService() {
+            return TestTwoService.this;
+        }
+    }
 
+    //通过binder实现调用者client与Service之间的通信
+    private MyBinder binder = new MyBinder();
+
+    private final Random generator = new Random();
+
+    @Override
+    public void onCreate() {
+        Log.i("Kathy","TestTwoService - onCreate - Thread = " + Thread.currentThread().getName());
+        super.onCreate();
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        Log.i("Kathy", "TestTwoService - onStartCommand - startId = " + startId + ", Thread = " + Thread.currentThread().getName());
+        return START_NOT_STICKY;
+    }
+
+    @Nullable
+    @Override
+    public IBinder onBind(Intent intent) {
+        Log.i("Kathy", "TestTwoService - onBind - Thread = " + Thread.currentThread().getName());
+        return binder;
+    }
+
+    @Override
+    public boolean onUnbind(Intent intent) {
+        Log.i("Kathy", "TestTwoService - onUnbind - from = " + intent.getStringExtra("from"));
+        return false;
+    }
+
+    @Override
+    public void onDestroy() {
+        Log.i("Kathy", "TestTwoService - onDestroy - Thread = " + Thread.currentThread().getName());
+        super.onDestroy();
+    }
+
+    //getRandomNumber是Service暴露出去供client调用的公共方法
+    public int getRandomNumber() {
+        return generator.nextInt();
+    }
+}
+
+```
+
+```java
+public class ActivityA extends Activity implements Button.OnClickListener {
+    private TestTwoService service = null;
+    private boolean isBind = false;
+
+    private ServiceConnection conn = new ServiceConnection() {
+        @Override
+        public void onServiceConnected(ComponentName name, IBinder binder) {
+            isBind = true;
+            TestTwoService.MyBinder myBinder = (TestTwoService.MyBinder) binder;
+            service = myBinder.getService();
+            Log.i("Kathy", "ActivityA - onServiceConnected");
+            int num = service.getRandomNumber();
+            Log.i("Kathy", "ActivityA - getRandomNumber = " + num);
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName name) {
+            isBind = false;
+            Log.i("Kathy", "ActivityA - onServiceDisconnected");
+        }
+    };
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_a);
+        Log.i("Kathy", "ActivityA - onCreate - Thread = " + Thread.currentThread().getName());
+
+        findViewById(R.id.btnBindService).setOnClickListener(this);
+        findViewById(R.id.btnUnbindService).setOnClickListener(this);
+        findViewById(R.id.btnStartActivityB).setOnClickListener(this);
+        findViewById(R.id.btnFinish).setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        if (v.getId() == R.id.btnBindService) {
+            //单击了“bindService”按钮
+            Intent intent = new Intent(this, TestTwoService.class);
+            intent.putExtra("from", "ActivityA");
+            Log.i("Kathy", "----------------------------------------------------------------------");
+            Log.i("Kathy", "ActivityA 执行 bindService");
+            bindService(intent, conn, BIND_AUTO_CREATE);
+        } else if (v.getId() == R.id.btnUnbindService) {
+            //单击了“unbindService”按钮
+            if (isBind) {
+                Log.i("Kathy",
+                        "----------------------------------------------------------------------");
+                Log.i("Kathy", "ActivityA 执行 unbindService");
+                unbindService(conn);
+            }
+        } else if (v.getId() == R.id.btnStartActivityB) {
+            //单击了“start ActivityB”按钮
+            Intent intent = new Intent(this, ActivityB.class);
+            Log.i("Kathy",
+                    "----------------------------------------------------------------------");
+            Log.i("Kathy", "ActivityA 启动 ActivityB");
+            startActivity(intent);
+        } else if (v.getId() == R.id.btnFinish) {
+            //单击了“Finish”按钮
+            Log.i("Kathy",
+                    "----------------------------------------------------------------------");
+            Log.i("Kathy", "ActivityA 执行 finish");
+            this.finish();
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("Kathy", "ActivityA - onDestroy");
+    }
+}
+
+```
 
 
 
