@@ -1,8 +1,8 @@
 #### Activity的四种启动模式对比
 
-**standard\(默认标准启动模式\):** 
+**standard\(默认标准启动模式\):**
 
-> 每次创建都会产生新的实例，谁启动了该模式的Activity，该Activity就属于启动它的Activity的任务栈中2
+> 每次创建都会产生新的实例，谁启动了该模式的Activity，该Activity就属于启动它的Activity的任务栈中
 
 **singleTop\(栈顶复用模式\):**
 
