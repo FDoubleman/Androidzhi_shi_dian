@@ -18,8 +18,6 @@ onCreate\(\)---&gt;onStartCommand\(\)（onStart\(\)方法已过时） ---&gt; on
 
 ```
 
-
-
 ```
 
 ##### 2、采用bind的方式开启服务
@@ -29,6 +27,22 @@ onCreate\(\)---&gt;onStartCommand\(\)（onStart\(\)方法已过时） ---&gt; on
 2、bind的方式开启服务，绑定服务，调用者挂了，服务也会跟着挂掉。 绑定者可以调用服务里面的方法
 
 ---
+
+相关代码
+
+//连续启动Service
+
+        Intent intentOne = new Intent\(this, TestOneService.class\);
+
+        startService\(intentOne\);
+
+
+
+
+
+
+
+
 
 
 
