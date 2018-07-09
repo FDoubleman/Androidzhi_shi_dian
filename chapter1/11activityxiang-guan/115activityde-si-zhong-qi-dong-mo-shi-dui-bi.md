@@ -18,41 +18,25 @@
 
 
 
-使用方式：
+---
 
-
+_**使用方式：**_
 
 standard：怎么样都要创建
 
-
-
 singleTop：顶上不是target Activity，new一个
-
-
 
 singleTask：顶上不是target Activity，移除target之上的，把自己变成top。
 
-
-
 singleInstance：开辟私有的task，完全独立于程序的其他activity的task。
 
-
-
-使用场景：
-
-
+_**使用场景：**_
 
 standard：普通activity
 
-
-
 singleTop：要展示推送过来的消息
 
-
-
 singleTask：程序入口等启动页面
-
-
 
 singleInstance：完全独立的，类似闹钟的提示
 
