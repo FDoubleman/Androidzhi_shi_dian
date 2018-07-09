@@ -12,6 +12,7 @@
     * [1.1.7.Application 和 Activity 的 Context 对象的区别](chapter1/11activityxiang-guan/117application-he-activity-de-context-dui-xiang-de-qu-bie.md)
   * [1.2.Service相关](chapter1/12servicexiang-guan.md)
     * [1.2.1.Service的两种开启方式及区别](chapter1/12servicexiang-guan/121servicede-kai-qi-fang-shi.md)
+    * 1.2.2.怎么保证service不被杀死？
   * 1.3.BroadcastReceiver相关
   * 1.4.Content Provider相关
   * 1.5.Fragment相关
