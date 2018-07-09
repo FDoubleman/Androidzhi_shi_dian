@@ -7,6 +7,7 @@
     * [1.1.2.Activity之间的通信方式](chapter1/11activityxiang-guan/112activityzhi-jian-de-tong-xin-fang-shi.md)
     * [1.1.3.Activity与Fragment之间生命周期比较](chapter1/11activityxiang-guan/113.md)
     * [1.1.4.Activity上有Dialog的时候按Home键时的生命周期](chapter1/11activityxiang-guan/114activityshang-you-dialog-de-shi-hou-an-home-jian-shi-de-sheng-ming-zhou-qi.md)
+    * [1.1.5.Activity的四种启动模式对比](chapter1/11activityxiang-guan/115activityde-si-zhong-qi-dong-mo-shi-dui-bi.md)
   * 1.2.Service相关
   * 1.3.BroadcastReceiver相关
   * 1.4.Content Provider相关
