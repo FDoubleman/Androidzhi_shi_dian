@@ -18,6 +18,8 @@ onCreate\(\)---&gt;onStartCommand\(\)（onStart\(\)方法已过时） ---&gt; on
 
 ```
 
+
+
 ```
 
 ##### 2、采用bind的方式开启服务
