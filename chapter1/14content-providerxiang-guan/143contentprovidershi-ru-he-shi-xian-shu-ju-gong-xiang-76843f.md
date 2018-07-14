@@ -14,8 +14,6 @@
 
 通过URI间接调用ContentProvider。
 
-
-
 ---
 
 1、在Android中为了把自己程序的数据（一般是指数据库）提供给其他应用程序，就通过ContentProvider提供的方法
@@ -26,14 +24,17 @@
 
 4、要记得进行清单文件注册：
 
-     // 注册要加上作者标记authorities\(自定义的\)
+```
+ // 注册要加上作者标记authorities\(自定义的\)
+```
 
 ```
     <provider
     android:authorities="this.bank.authority"
     android:name=".MyContentProvider"/>
-
 ```
+
+5、其他程序通过内容解析者ContentResoler的对象进行增删改查
 
 
 
