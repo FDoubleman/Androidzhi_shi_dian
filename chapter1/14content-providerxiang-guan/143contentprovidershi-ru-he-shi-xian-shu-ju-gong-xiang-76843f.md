@@ -1,5 +1,7 @@
 #### **ContentProvider是如何实现数据共享的?**
 
+#### 流程：
+
 #### ![](/assets/Contentprovide.png)
 
 #### 
