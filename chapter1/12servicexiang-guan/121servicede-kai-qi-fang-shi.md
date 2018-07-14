@@ -37,12 +37,10 @@ onCreate\(\)---&gt;onStartCommand\(\)（onStart\(\)方法已过时） ---&gt; on
     Intent intentOne= new Intent(this, TestOneService.class);
 
     startService(intentOne);
-    
+
     //停止Service
     Intent intentFour = new Intent(this, TestOneService.class);
     stopService(intentFour);
-    
-    
 ```
 
 方式二、
@@ -98,7 +96,6 @@ public class TestTwoService extends Service{
         return generator.nextInt();
     }
 }
-
 ```
 
 ```java
@@ -174,12 +171,7 @@ public class ActivityA extends Activity implements Button.OnClickListener {
         Log.i("Kathy", "ActivityA - onDestroy");
     }
 }
-
 ```
-
-
-
-
 
 
 
