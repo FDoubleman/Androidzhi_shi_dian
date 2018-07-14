@@ -17,6 +17,7 @@
     * [1.2.4.service和activity怎么进行数据交互？](chapter1/12servicexiang-guan/124servicehe-activity-zen-yao-jin-xing-shu-ju-jiao-hu-ff1f.md)
   * [1.3.BroadcastReceiver相关](chapter1/13broadcastreceiverxiang-guan.md)
   * [1.4.Content Provider相关](chapter1/14content-providerxiang-guan.md)
+    * [1.4.1.ContentProvider、ContentResolver、ContentObserver 之间的关系](chapter1/14content-providerxiang-guan/contentprovidercontentresolvercontentobserver-zhi-jian-de-guan-xi.md)
   * 1.5.Fragment相关
   * 1.6.Webview相关
   * 1.7.动画相关
