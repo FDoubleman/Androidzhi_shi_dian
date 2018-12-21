@@ -35,6 +35,23 @@
     * Android中跨进程通讯
     * [AIDL理解](android/cross-process-communication/aidlli-jie.md)
     * Binder
+  * [Handler](android/handler.md)
+    * handler 消息传递分析
+    * Handle、Message、MessageQueue、Looper之间的关系
+  * HotFix
+  * [BitMap](android/tu-pian-jia-zai-huan-cun.md)
+    * 图片加载缓存
+    * 如何加载大图
+  * [Memory](android/memory.md)
+    * 内存泄漏
+    * 内存优化
+  * 屏幕适配
+  * [Hybrid JAVA 与JS交互](android/hybrid-java-yu-js-jiao-hu.md)
+  * [设计模式](android/she-ji-mo-shi.md)
+    * 单例模式
+  * [ANR相关](android/anrxiang-guan.md)
+    * ANR产生的原因
+    * 如何避免ANR
 * [java](java.md)
   * [base](java/base.md)
 
