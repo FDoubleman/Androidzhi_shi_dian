@@ -22,6 +22,19 @@
   * [ContentProvider](android/contentprovider.md)
     * ContentProvider、ContentResolver、ContentObserver 之间的关系？
     * ContentProvider与数据库（SQL）的区别？
+  * [Network](android/network.md)
+    * [HTTPS和HTTP的区别☆](android/network/httpshe-http-de-qu-bie.md)
+    * [HttpClient与HttpUrlConnection的区别](android/network/httpclientyu-httpurlconnection-de-qu-bie.md)
+  * [View](android/view.md)
+    * View的Touch事件传递机制
+    * Touch相关的三个方法
+  * [Animation](android/animation.md)
+    * Android中有几种动画？
+    * 属性动画
+  * [Cross-process](android/cross-process-communication.md)
+    * Android中跨进程通讯
+    * [AIDL理解](android/cross-process-communication/aidlli-jie.md)
+    * Binder
 * [java](java.md)
   * [base](java/base.md)
 
