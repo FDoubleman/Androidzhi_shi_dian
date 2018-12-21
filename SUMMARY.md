@@ -4,7 +4,7 @@
 * [1.Android基础](chapter1.md)
   * [1.1.Activity相关](chapter1/11activityxiang-guan.md)
     * [1.1.1.Activity生命周期](chapter1/11activityxiang-guan/111activitysheng-ming-zhou-qi.md)
-    * [1.1.2.Activity之间的通信方式](chapter1/11activityxiang-guan/112activityzhi-jian-de-tong-xin-fang-shi.md)
+    * [1.1.2.Activity之间的通信方式](chapter1/11activityxiang-guan/112activityzhi-jian-de-tong-xin-fang-shi哈哈.md)
     * [1.1.3.Activity与Fragment之间生命周期比较](chapter1/11activityxiang-guan/113.md)
     * [1.1.4.Activity上有Dialog的时候按Home键时的生命周期](chapter1/11activityxiang-guan/114activityshang-you-dialog-de-shi-hou-an-home-jian-shi-de-sheng-ming-zhou-qi.md)
     * [1.1.5.Activity的四种启动模式对比](chapter1/11activityxiang-guan/115activityde-si-zhong-qi-dong-mo-shi-dui-bi.md)
@@ -14,11 +14,11 @@
     * [1.2.1.Service的两种开启方式及区别](chapter1/12servicexiang-guan/121servicede-kai-qi-fang-shi.md)
     * [1.2.2.怎么保证service不被杀死？](chapter1/12servicexiang-guan/122zen-yao-bao-zheng-service-bu-bei-sha-si-ff1f.md)
   * [1.3.BroadcastReceiver相关](chapter1/13broadcastreceiverxiang-guan.md)
-  * 1.4.Content Provider相关
+  * [1.4.Content Provider相关](chapter1/14content-providerxiang-guan.md)
   * 1.5.Fragment相关
   * 1.6.Webview相关
-  * 1.7.动画相关
-  * 1.8.binder相关
+  * [1.7.动画相关](chapter1/17dong-hua-xiang-guan.md)
+  * [1.8.binder相关](chapter1/18binderxiang-guan.md)
   * 1.9.Android异步消息处理机制
   * 1.10.View相关
 * [2.Android进阶](2androidjin-jie.md)
