@@ -28,6 +28,8 @@
   * [View](android/view.md)
     * View的Touch事件传递机制
     * Touch相关的三个方法
+    * View，SurfaceView，GLSurfaceView的关系和区别
+    * layout、Merge、ViewStub的作用
   * [Animation](android/animation.md)
     * Android中有几种动画？
     * 属性动画
@@ -42,6 +44,7 @@
   * [BitMap](android/tu-pian-jia-zai-huan-cun.md)
     * 图片加载缓存
     * 如何加载大图
+    * 计算一张图片的大小，加载bitmap过程（怎样保证不产生内存溢出），二级缓存，LRUCache算法
   * [Memory](android/memory.md)
     * 内存泄漏
     * 内存优化
@@ -52,6 +55,15 @@
   * [ANR相关](android/anrxiang-guan.md)
     * ANR产生的原因
     * 如何避免ANR
+  * [Storage](android/storage.md)
+    * [SharedPreference](android/storage/sp.md)
+      * commit和apply的区别
+    * 数据库
+  * [Other](android/other.md)
+    * Android 中序列化有哪些方式
+  * [Thread](android/thread.md)
+    * 线程池种类
+    * Android中进程的级别，以及各自的区别
 * [java](java.md)
   * [base](java/base.md)
 
