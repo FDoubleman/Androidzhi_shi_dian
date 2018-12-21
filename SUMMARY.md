@@ -100,4 +100,23 @@
   * Java静态代理和动态代理
   * 类的加载过程，Person person = new Person\(\);为例进行说明
   * 类加载的过程
+  * 什么是内部类？内部类的作用
+  * 泛型通配符extends与super的区别
+  * 静态内部类与非静态内部类之间区别
+  * Thread中start\(\)和run\(\)的区别
+* [java\_advance](javaadvance.md)
+  * 哪些情况下的对象会被垃圾回收机制处理掉
+  * 常见编码方式
+  * utf-8编码中的中文占几个字节；int型几个字节
+  * 静态代理和动态代理的区别，什么场景使用？
+  * Java的异常体系
+  * 修改对象A的equals方法的签名，那么使用HashMap存放这个对象实例的时候，会调用哪个equals方法？
+  * Java中实现多态的机制是什么？
+  * 如何将一个Java对象序列化到文件里？
+  * Java反射的理解
+  * Java注解的理解
+  * 说一下泛型原理，并举例说明
+  * Java中String的了解
+  * Object类的equal和hashCode方法重写，为什么？
+  * String为什么要设计成不可变的？
 
