@@ -65,5 +65,39 @@
     * 线程池种类
     * Android中进程的级别，以及各自的区别
 * [java](java.md)
-  * [base](java/base.md)
+  * [对象的自动装箱和拆箱](java/base.md)
+  * switch支持的数据类型
+  * equals、==、hashCode
+  * 创建对象方法
+  * [Java多态](java/javaduo-tai.md)
+    * Java多态的实现原理
+    * 动态绑定的理解
+  * 抽象类和接口区别
+  * public、protected、private、default 的区别
+  * 创建线程的方式
+  * sleep、wait、yield、notify、notifyall
+  * synchronized 、Lock区别
+  * 异常处理
+  * JVM内存模型
+  * GC机制
+  * [算法](java/suan-fa.md)
+    * 冒泡 排序
+  * [集合框架](java/ji-he-kuang-jia.md)
+    * ArrayList,LinkedList异同点
+    * HashMap,HashTable中的关联和差异
+    * ArrayList和Vector的比较
+    * HashMap源码分析
+    * Java容器相关的辅助类Arrays和Collections了解一下（看那个傻逼问！）
+  * java中的基本数据类型？各占多少位？多少字节？取值范围？String是基本类型还是引用类型？
+  * Java什么时候是值传递什么时候是引用传递？
+  * String相关的。String常量池，StringBuffer，StringBuilder。String不可变的理解。String的intern方法不同版本的实现原理的区别
+  * final,finalize（）和finally的区别
+  * Java怎样开启一个线程。线程池是干什么的？有哪些常用的线程池？优缺点是什么？
+  * 线程生命周期
+  * volidate关键字的作用？
+  * clone的使用
+  * Java反射机制
+  * Java静态代理和动态代理
+  * 类的加载过程，Person person = new Person\(\);为例进行说明
+  * 类加载的过程
 
