@@ -83,11 +83,11 @@
   * [算法](java/suan-fa.md)
     * 冒泡 排序
   * [集合框架](java/ji-he-kuang-jia.md)
-    * ArrayList,LinkedList异同点
-    * HashMap,HashTable中的关联和差异
-    * ArrayList和Vector的比较
-    * HashMap源码分析
-    * Java容器相关的辅助类Arrays和Collections了解一下（看那个傻逼问！）
+    * [ArrayList,LinkedList异同点](java/ji-he-kuang-jia/arraylistlinkedlistyi-tong-dian.md)
+    * [HashMap,HashTable中的关联和差异](java/ji-he-kuang-jia/hashmaphashtablezhong-de-guan-lian-he-cha-yi.md)
+    * [ArrayList和Vector的比较](java/ji-he-kuang-jia/arraylisthe-vector-de-bi-jiao.md)
+    * [HashMap源码分析](java/ji-he-kuang-jia/hashmapyuan-ma-fen-xi.md)
+    * [Java容器相关的辅助类Arrays和Collections了解一下（看那个傻逼问！）](java/ji-he-kuang-jia/javarong-qi-xiang-guan-de-fu-zhu-lei-arrays-he-collections-le-jie-yi-xia-ff08-kan-na-ge-sha-bi-wen-ff01-ff09.md)
   * java中的基本数据类型？各占多少位？多少字节？取值范围？String是基本类型还是引用类型？
   * Java什么时候是值传递什么时候是引用传递？
   * String相关的。String常量池，StringBuffer，StringBuilder。String不可变的理解。String的intern方法不同版本的实现原理的区别
@@ -118,5 +118,5 @@
   * 说一下泛型原理，并举例说明
   * Java中String的了解
   * Object类的equal和hashCode方法重写，为什么？
-  * String为什么要设计成不可变的？
+  * [String为什么要设计成不可变的？](javaadvance/stringwei-shi-yao-yao-she-ji-cheng-bu-ke-bian-de-ff1f.md)
 
