@@ -4,23 +4,21 @@
 
 **Collection 结构图:**
 
-![](/assets/collection.webp) 
+![](/assets/collection.webp)Collection是接口 **Set, Queue, List **的父接口
 
-> Map实现类用于保存具有映射关系的数据。Map保存的每项数据都是key-value对，也就是由key和value两个值组成。Map里的key是不可重复的，key用户标识集合里的每项数据。
+
+
+
+
+
+
+
+
+> Map实现类用于**保存具有映射关系的数据**。Map保存的每项数据都是key-value对，也就是由key和value两个值组成。**Map里的key是不可重复**的，key用户标识集合里的每项数据。
 
 **Map 结构图：**
 
 ![](/assets/map.webp)
 
 **总结：**
-
-
-
-
-
-
-
-
-
-
 
