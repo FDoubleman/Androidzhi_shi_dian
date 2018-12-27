@@ -3,14 +3,25 @@
 ---
 
 #### List，Set,Map三者的区别及总结
+- **List：对付顺序的好帮手**
+    > List接口存储一组不唯一（可以有多个元素引用相同的对象），有序的对象
+    
+- **Set:注重独一无二的性质**
+    > 不允许重复的集合。不会有多个元素引用相同的对象。
+    
+- **Map:用Key来搜索的专家**
+    > 使用键值对存储。Map会维护与Key有关联的值。两个Key可以引用相同的对象，但Key不能重复，典型的Key是String类型，但也可以是任何对象。
+
+
+#### Arraylist 与 LinkedList 区别
+
+Arraylist底层使用的是数组（存读数据效率高，插入删除特定位置效率低），LinkedList底层使用的是双向循环链表数据结构（插入，删除效率特别高）
+
+#### ArrayList 与 Vector 区别
+Vector类的所有方法都是同步的。可以由两个线程安全地访问一个Vector对象、但是一个线程访问Vector ，代码要在同步操作上耗费大量的时间。Arraylist不是同步的，所以在不需要同步时建议使用Arraylist。
 
 
 
-
-
-
-
-Arraylist 与 LinkedList 区别
 
 
 
