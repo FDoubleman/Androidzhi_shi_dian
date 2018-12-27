@@ -88,6 +88,7 @@
     * [ArrayList和Vector的比较](java/ji-he-kuang-jia/arraylisthe-vector-de-bi-jiao.md)
     * [HashMap源码分析](java/ji-he-kuang-jia/hashmapyuan-ma-fen-xi.md)
     * [Java容器相关的辅助类Arrays和Collections了解一下（看那个傻逼问！）](java/ji-he-kuang-jia/javarong-qi-xiang-guan-de-fu-zhu-lei-arrays-he-collections-le-jie-yi-xia-ff08-kan-na-ge-sha-bi-wen-ff01-ff09.md)
+    * [集合常见问题](java/ji-he-kuang-jia/ji-he-chang-jian-wen-ti.md)
   * java中的基本数据类型？各占多少位？多少字节？取值范围？String是基本类型还是引用类型？
   * Java什么时候是值传递什么时候是引用传递？
   * String相关的。String常量池，StringBuffer，StringBuilder。String不可变的理解。String的intern方法不同版本的实现原理的区别
