@@ -42,6 +42,31 @@ Vector类的所有方法都是同步的。可以由两个线程安全地访问�
 
 2.HashMap的键值对允许有null，但是ConCurrentHashMap都不允许。
 
+#### HashSet如何检查重复
+> 当你把对象加入HashSet时，HashSet会先计算对象的hashcode值来判断对象加入的位置，同时也会与其他加入的对象的hashcode值作比较，如果没有相符的hashcode，HashSet会假设对象没有重复出现。但是如果发现有相同hashcode值的对象，这时会调用equals（）方法来检查hashcode相等的对象是否真的相同。如果两者相同，HashSet就不会让加入操作成功。（摘自我的Java启蒙书《Head fist java》第二版）
+
+####  hashCode（）与equals（）的相关规定：
+
+- 如果两个对象相等，则hashcode一定也是相同的
+
+- 两个对象相等,对两个equals方法返回true
+
+- 两个对象有相同的hashcode值，它们也不一定是相等的
+
+- equals方法被覆盖过，则hashCode方法也必须被覆盖
+
+- hashCode()的默认行为是对堆上的对象产生独特值。如果没有重写hashCode()，则该class的两个对象无论如何都不会相等（即使这两个对象指向相同的数据）。
+
+####  ==与equals的区别
+
+- 1.==是判断两个变量或实例是不是指向同一个内存空间 equals是判断两个变量或实例所指向的内存空间的值是不是相同
+
+- 2.==是指对内存地址进行比较 equals()是对字符串的内容进行比较- 
+- 3.==指引用是否相同 equals()指的是值是否相同
+
+
+
+
 
 
 
