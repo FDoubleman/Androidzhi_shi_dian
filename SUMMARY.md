@@ -66,7 +66,7 @@
     * Android中进程的级别，以及各自的区别
 * [java](java.md)
   * [对象的自动装箱和拆箱](java/base.md)
-  * switch支持的数据类型
+  * [switch支持的数据类型](java/switchzhi-chi-de-shu-ju-lei-xing.md)
   * [equals、==、hashCode](java/equalshashcode.md)
   * [创建对象方法](java/chuang-jian-dui-xiang-fang-fa.md)
   * [Java多态](java/javaduo-tai.md)
@@ -105,6 +105,7 @@
   * 泛型通配符extends与super的区别
   * 静态内部类与非静态内部类之间区别
   * Thread中start\(\)和run\(\)的区别
+  * [final、static、this、super关键字](java/final-guan-jian-zi.md)
 * [java\_advance](javaadvance.md)
   * 哪些情况下的对象会被垃圾回收机制处理掉
   * 常见编码方式
