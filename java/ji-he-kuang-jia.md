@@ -64,24 +64,25 @@ Collection用法有：添加元素，删除元素，返回Collection集合的个
 
 **总结：**
 
-**Collection**
+**Collection**  
 **- list**
-    - Arraylist：数组（查询快,增删慢 线程不安全,效率高 ）
-    - Vector：数组（查询快,增删慢 线程安全,效率低 ）
-    - LinkedList：链表（查询慢,增删快 线程不安全,效率高 ）
-    
+
+* Arraylist：数组（查询快,增删慢 线程不安全,效率高 ）
+* Vector：数组（查询快,增删慢 线程安全,效率低 ）
+* LinkedList：链表（查询慢,增删快 线程不安全,效率高 ）
+
 **- set**
-    - HashSet（无序，唯一）:哈希表或者叫散列集(hash table)
-    - LinkedHashSet：链表和哈希表组成 。 由链表保证元素的排序 ， 由哈希表证元素的唯一性
-    - TreeSet（有序，唯一）：红黑树(自平衡的排序二叉树。)
-     
+
+* HashSet（无序，唯一）:哈希表或者叫散列集\(hash table\)
+* LinkedHashSet：链表和哈希表组成 。 由链表保证元素的排序 ， 由哈希表证元素的唯一性
+* TreeSet（有序，唯一）：红黑树\(自平衡的排序二叉树。\)
+
 **- Map**
-    - HashMap：基于哈希表的Map接口实现（哈希表对键进行散列，Map结构即映射表存放键值对）
-    - LinkedHashMap:HashMap 的基础上加上了链表数据结构
-    - HashTable:哈希表
-    - TreeMap:红黑树（自平衡的排序二叉树）
 
-
+* HashMap：基于哈希表的Map接口实现（哈希表对键进行散列，Map结构即映射表存放键值对）
+* LinkedHashMap:HashMap 的基础上加上了链表数据结构
+* HashTable:是线程安全的；内部的方法基本都经过synchronized修饰。
+* TreeMap:红黑树（自平衡的排序二叉树）
 
 
 

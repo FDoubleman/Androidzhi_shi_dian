@@ -67,8 +67,8 @@
 * [java](java.md)
   * [对象的自动装箱和拆箱](java/base.md)
   * switch支持的数据类型
-  * equals、==、hashCode
-  * 创建对象方法
+  * [equals、==、hashCode](java/equalshashcode.md)
+  * [创建对象方法](java/chuang-jian-dui-xiang-fang-fa.md)
   * [Java多态](java/javaduo-tai.md)
     * Java多态的实现原理
     * 动态绑定的理解
@@ -92,7 +92,7 @@
   * java中的基本数据类型？各占多少位？多少字节？取值范围？String是基本类型还是引用类型？
   * Java什么时候是值传递什么时候是引用传递？
   * String相关的。String常量池，StringBuffer，StringBuilder。String不可变的理解。String的intern方法不同版本的实现原理的区别
-  * final,finalize（）和finally的区别
+  * [final,finalize（）和finally的区别](java/finalfinalizeff08-ff09-he-finally-de-qu-bie.md)
   * Java怎样开启一个线程。线程池是干什么的？有哪些常用的线程池？优缺点是什么？
   * 线程生命周期
   * volidate关键字的作用？
