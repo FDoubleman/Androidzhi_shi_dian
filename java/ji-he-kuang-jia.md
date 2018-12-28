@@ -22,8 +22,6 @@ Collection用法有：添加元素，删除元素，返回Collection集合的个
 
 #### 一、Collection:
 
-
-
 **Set集合：**
 
 > **Set集合不允许包含相同的元素**，如果试图把两个相同的元素加入同一个Set集合中，则添加操作失败，add\(\)方法返回false，且新元素不会被加入。
@@ -64,7 +62,26 @@ Collection用法有：添加元素，删除元素，返回Collection集合的个
 >
 > TreeMap 是一个**有序的key-value集合**，它是通过红黑树实现的，每个key-value对即作为红黑树的一个节点。
 
-
-
 **总结：**
+
+**Collection**
+**- list**
+    - Arraylist：数组（查询快,增删慢 线程不安全,效率高 ）
+    - Vector：数组（查询快,增删慢 线程安全,效率低 ）
+    - LinkedList：链表（查询慢,增删快 线程不安全,效率高 ）
+    
+**- set**
+    - HashSet（无序，唯一）:哈希表或者叫散列集(hash table)
+    - LinkedHashSet：链表和哈希表组成 。 由链表保证元素的排序 ， 由哈希表证元素的唯一性
+    - TreeSet（有序，唯一）：红黑树(自平衡的排序二叉树。)
+     
+**- Map**
+    - HashMap：基于哈希表的Map接口实现（哈希表对键进行散列，Map结构即映射表存放键值对）
+    - LinkedHashMap:HashMap 的基础上加上了链表数据结构
+    - HashTable:哈希表
+    - TreeMap:红黑树（自平衡的排序二叉树）
+
+
+
+
 
