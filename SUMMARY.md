@@ -3,67 +3,28 @@
 * [README](README.md)
 * [android](android.md)
   * [Activity](android/activity.md)
-    * [activity生命周期](android/base.md)
-    * Activity的启动模式以及使用场景
-    * Activity的启动过程（不要回答生命周期）
-    * Activity上有Dialog的时候按Home键时的生命周期？
-    * [在Activity中如何保存/恢复状态？](android/zai-activity-zhong-ru-he-bao-5b58-hui-fu-zhuang-tai-ff1f.md)
-    * [Application 和 Activity 的 Context 对象的区别](android/application-he-activity-de-context-dui-xiang-de-qu-bie.md)
-    * service和activity怎么进行数据交互？
   * [Service](android/service.md)
-    * [Service的startService\(Intent\)启动方式](android/service/servicede-startservice-intent-qi-dong-fang-shi.md)
-    * [采用bind的方式开启服务](android/service/cai-yong-bind-de-fang-shi-kai-qi-fu-wu.md)
-    * service和activity怎么进行数据交互？
-    * 怎么保证service不被杀死？
   * [BroadcastReceiver](android/broadcastreceiver.md)
-    * Broadcast注册方式与区别
-    * 两种注册广播的不同
-    * 发送广播的两种方式
   * [ContentProvider](android/contentprovider.md)
-    * [ContentProvider、ContentResolver、ContentObserver 之间的关系？](android/contentprovider/contentprovidercontentresolvercontentobserver-zhi-jian-de-guan-xi-ff1f.md)
-    * [ContentProvider与数据库（SQL）的区别？](android/contentprovider/contentprovideryu-shu-ju-ku-ff08-sql-ff09-de-qu-bie-ff1f.md)
   * [Network](android/network.md)
-    * [HTTPS和HTTP的区别☆](android/network/httpshe-http-de-qu-bie.md)
-    * [HttpClient与HttpUrlConnection的区别](android/network/httpclientyu-httpurlconnection-de-qu-bie.md)
   * [View](android/view.md)
-    * [View的Touch事件传递机制](android/view/viewde-touch-shi-jian-chuan-di-ji-zhi.md)
-    * [Touch相关的三个方法](android/view/touchxiang-guan-de-san-ge-fang-fa.md)
-    * [View，SurfaceView，GLSurfaceView的关系和区别](android/view/viewsurfaceviewglsurfaceviewde-guan-xi-he-qu-bie.md)
-    * [layout、Merge、ViewStub的作用](android/view/layoutmergeviewstubde-zuo-yong.md)
   * [Animation](android/animation.md)
-    * Android中有几种动画？
-    * 属性动画
   * [Cross-process](android/cross-process-communication.md)
-    * Android中跨进程通讯
-    * [AIDL理解](android/cross-process-communication/aidlli-jie.md)
-    * Binder
   * [Handler](android/handler.md)
-    * [handler 消息传递分析](android/handler/handler-xiao-xi-chuan-di-fen-xi.md)
-    * [Handle、Message、MessageQueue、Looper之间的关系](android/handler/handlemessagemessagequeuelooperzhi-jian-de-guan-xi.md)
   * HotFix
-  * [BitMap](android/tu-pian-jia-zai-huan-cun.md)
-    * 图片加载缓存
-    * 如何加载大图
-    * 计算一张图片的大小，加载bitmap过程（怎样保证不产生内存溢出），二级缓存，LRUCache算法
+  * [Bitmap](android/tu-pian-jia-zai-huan-cun.md)
+    * [如何加载大图](android/tu-pian-jia-zai-huan-cun/ru-he-jia-zai-da-tu.md)
+    * Glide如何加载图片
   * [Memory](android/memory.md)
-    * 内存泄漏
+    * [内存泄漏](android/memory/nei-cun-xie-lou.md)
     * 内存优化
   * 屏幕适配
   * [Hybrid JAVA 与JS交互](android/hybrid-java-yu-js-jiao-hu.md)
   * [设计模式](android/she-ji-mo-shi.md)
-    * 单例模式
   * [ANR相关](android/anrxiang-guan.md)
-    * ANR产生的原因
-    * 如何避免ANR
   * [Storage](android/storage.md)
-    * [SharedPreference](android/storage/sp.md)
-      * commit和apply的区别
-    * 数据库
   * [Other](android/other.md)
-    * Android 中序列化有哪些方式
   * [Thread](android/thread.md)
-    * 线程池种类
-    * Android中进程的级别，以及各自的区别
 * [java](java.md)
   * [对象的自动装箱和拆箱](java/base.md)
   * [switch支持的数据类型](java/switchzhi-chi-de-shu-ju-lei-xing.md)
@@ -81,17 +42,15 @@
   * JVM内存模型
   * GC机制
   * [算法](java/suan-fa.md)
-    * 冒泡 排序
   * [集合框架](java/ji-he-kuang-jia.md)
     * [ArrayList,LinkedList异同点](java/ji-he-kuang-jia/arraylistlinkedlistyi-tong-dian.md)
     * [HashMap,HashTable中的关联和差异](java/ji-he-kuang-jia/hashmaphashtablezhong-de-guan-lian-he-cha-yi.md)
     * [ArrayList和Vector的比较](java/ji-he-kuang-jia/arraylisthe-vector-de-bi-jiao.md)
     * [HashMap的内部实现原理](java/ji-he-kuang-jia/hashmapyuan-ma-fen-xi.md)
-    * [Java容器相关的辅助类Arrays和Collections了解一下（看那个傻逼问！）](java/ji-he-kuang-jia/javarong-qi-xiang-guan-de-fu-zhu-lei-arrays-he-collections-le-jie-yi-xia-ff08-kan-na-ge-sha-bi-wen-ff01-ff09.md)
     * [集合常见问题](java/ji-he-kuang-jia/ji-he-chang-jian-wen-ti.md)
   * [java中的基本数据类型？各占多少位？多少字节？取值范围？String是基本类型还是引用类型？](java/javazhong-de-ji-ben-shu-ju-lei-xingff1f-ge-zhan-duo-shao-wei-ff1f-duo-shao-zi-jie-ff1f-qu-zhi-fan-wei-ff1f-string-shi-ji-ben-lei-xing-huan-shi-yin-yong-lei-xing-ff1f.md)
   * [Java什么时候是值传递什么时候是引用传递？](java/javashi-yao-shi-hou-shi-zhi-chuan-di-shi-yao-shi-hou-shi-yin-yong-chuan-di-ff1f.md)
-  * String相关的。String常量池，StringBuffer，StringBuilder。String不可变的理解。String的intern方法不同版本的实现原理的区别
+  * [String相关的。String常量池，StringBuffer，StringBuilder。String不可变的理解。String的intern方法不同版本的实现原理的区别](java/stringxiang-guan-de-3002-string-chang-liang-chi-ff0c-stringbuffer-stringbuilder-string-bu-ke-bian-de-li-jie-3002-string-de-intern-fang-fa-bu-tong-ban-ben-de-shi-xian-yuan-li-de-qu-bie.md)
   * [final,finalize（）和finally的区别](java/finalfinalizeff08-ff09-he-finally-de-qu-bie.md)
   * Java怎样开启一个线程。线程池是干什么的？有哪些常用的线程池？优缺点是什么？
   * 线程生命周期
@@ -107,18 +66,4 @@
   * [Thread中start\(\)和run\(\)的区别](java/threadzhong-start-he-run-de-qu-bie.md)
   * [final、static、this、super关键字](java/final-guan-jian-zi.md)
 * [java\_advance](javaadvance.md)
-  * 哪些情况下的对象会被垃圾回收机制处理掉
-  * 常见编码方式
-  * utf-8编码中的中文占几个字节；int型几个字节
-  * 静态代理和动态代理的区别，什么场景使用？
-  * Java的异常体系
-  * 修改对象A的equals方法的签名，那么使用HashMap存放这个对象实例的时候，会调用哪个equals方法？
-  * Java中实现多态的机制是什么？
-  * 如何将一个Java对象序列化到文件里？
-  * Java反射的理解
-  * Java注解的理解
-  * 说一下泛型原理，并举例说明
-  * Java中String的了解
-  * Object类的equal和hashCode方法重写，为什么？
-  * [String为什么要设计成不可变的？](javaadvance/stringwei-shi-yao-yao-she-ji-cheng-bu-ke-bian-de-ff1f.md)
 
