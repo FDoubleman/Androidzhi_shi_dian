@@ -13,8 +13,8 @@
   * [Handler](android/handler.md)
   * HotFix
   * [Bitmap](android/tu-pian-jia-zai-huan-cun.md)
-    * [如何加载大图](android/tu-pian-jia-zai-huan-cun/ru-he-jia-zai-da-tu.md)
-    * Glide如何加载图片
+    * [如何加载大图Bitmap](android/tu-pian-jia-zai-huan-cun/ru-he-jia-zai-da-tu.md)
+    * [Glide如何加载图片](android/tu-pian-jia-zai-huan-cun/glideru-he-jia-zai-tu-pian.md)
   * [Memory](android/memory.md)
     * [内存泄漏](android/memory/nei-cun-xie-lou.md)
     * 内存优化
