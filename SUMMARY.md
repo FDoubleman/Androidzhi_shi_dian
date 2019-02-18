@@ -31,8 +31,8 @@
   * [equals、==、hashCode](java/equalshashcode.md)
   * [创建对象方法](java/chuang-jian-dui-xiang-fang-fa.md)
   * [Java多态](java/javaduo-tai.md)
-    * Java多态的实现原理
-    * 动态绑定的理解
+    * [Java多态的实现原理](java/javaduo-tai/javaduo-tai-de-shi-xian-yuan-li.md)
+    * [动态绑定的理解](java/javaduo-tai/dong-tai-bang-ding-de-li-jie.md)
   * 抽象类和接口区别
   * public、protected、private、default 的区别
   * 创建线程的方式
