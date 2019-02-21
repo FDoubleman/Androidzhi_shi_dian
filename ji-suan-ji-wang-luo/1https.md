@@ -1,8 +1,14 @@
-#### HTTPS
+#### 一、HTTPS
 
-**HTTPS 由：HTTP +SSL（Secure Sockets Layer 安全套接层）/TLS  （Transport Layer Security 传输层安全）两个部分组成 ，也就是在HTTPS上又加了一层处理加密信息的模块。服务端和客户端的信息传输都会通过TLS进行加密，所以传输的数据都是加密后的数据**
+**HTTPS 由：HTTP +SSL（Secure Sockets Layer 安全套接层）/TLS  （Transport Layer Security 传输层安全）两个部分组成 ，也就是在HTTPS上又加了一层处理加密信息的模块。服务端和客户端的信息传输都会通过TLS进行加密，所以传输的数据都是加密后的数据。**
 
-#### 加密流程
+* http和https使用的是完全不同的连接方式，用的端口也不一样，前者是80，后者是443
+* https协议需要到ca申请证书，一般免费证书很少，需要交费
+
+* http是[超文本传输协议](https://baike.baidu.com/item/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)，信息是明文传输，https 则是具有[安全性](https://baike.baidu.com/item/%E5%AE%89%E5%85%A8%E6%80%A7)的[ssl](https://baike.baidu.com/item/ssl)加密传输协议。
+
+* 
+#### 二、握手流程
 
 ##### 1、客户端发起HTTPS请求：
 
