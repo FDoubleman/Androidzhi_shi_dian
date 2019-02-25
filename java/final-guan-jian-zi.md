@@ -102,9 +102,13 @@ public static void a(int param) {
 public class A {  
 
     private static int count = 0;  //静态变量的申明
-   
-} 
+
+}
 ```
+
+![](/assets/944365-812d65cbdd0c69e0.png)
+
+
 
 **1、修饰成员变量和成员方法:** 被 static 修饰的成员属于类，不属于单个这个类的某个对象，被类中所有对象共享，可以并且建议通过类名调用。被static 声明的成员变量属于静态成员变量，静态变量 存放在 Java 内存区域的方法区。调用格式：类名.静态变量名 类名.静态方法名\(\)
 
