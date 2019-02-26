@@ -33,7 +33,7 @@
   * [Java多态](java/javaduo-tai.md)
     * [Java多态的实现原理](java/javaduo-tai/javaduo-tai-de-shi-xian-yuan-li.md)
     * [动态绑定的理解](java/javaduo-tai/dong-tai-bang-ding-de-li-jie.md)
-  * 抽象类和接口区别
+  * [抽象类和接口区别](java/chou-xiang-lei-he-jie-kou-qu-bie.md)
   * public、protected、private、default 的区别
   * 创建线程的方式
   * sleep、wait、yield、notify、notifyall
