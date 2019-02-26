@@ -60,20 +60,18 @@
   interface Alarm{  
       void alarm();  
   }  
-  
+
   // 具体使用时
   class AlarmDoor extends Door implements Alarm{  
       void open(){}  
       void close(){}  
       void alarm(){}  
-  } 
+  }
 ```
 
 ```
 
 ```
-
-
 
 
 
