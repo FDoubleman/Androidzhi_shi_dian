@@ -19,15 +19,11 @@
 
 ![](/assets/tcp12.png)
 
-
-
 **建立链接过程：**
 
 * 三次握手
 
-![](/assets/woshou.png)
-
-
+![](/assets/woshou1.png)![](/assets/woshou2.png)
 
 #### 三、UDP协议
 
