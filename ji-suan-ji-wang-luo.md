@@ -13,11 +13,7 @@
 #### 二、TCP协议
 
 > * `Transmission Control Protocol`，即 传输控制协议  。属于传输层协议
-> *  基于TCP的应用层协议有HTTP、SMTP、FTP、Telnet、POP3
-
-
-
-
+> * 基于TCP的应用层协议有HTTP、SMTP、FTP、Telnet、POP3
 
 #### 三、UDP协议
 
@@ -29,9 +25,7 @@
 
 ![](/assets/udp.png)
 
-
-
-TCP 和UDP的区别：
+**TCP 和UDP的区别：**
 
 ![](/assets/tcp.png)
 
