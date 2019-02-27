@@ -15,6 +15,20 @@
 > * `Transmission Control Protocol`，即 传输控制协议  。属于传输层协议
 > * 基于TCP的应用层协议有HTTP、SMTP、FTP、Telnet、POP3
 
+**特点：面向连接、面向字节流、全双工通信、可靠**
+
+![](/assets/tcp12.png)
+
+
+
+**建立链接过程：**
+
+* 三次握手
+
+![](/assets/woshou.png)
+
+
+
 #### 三、UDP协议
 
 > * `User Datagram Protocol`，即 用户数据报协议 。属于传输层协议
