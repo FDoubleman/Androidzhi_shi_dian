@@ -45,8 +45,6 @@
 
 ![](/assets/http1.png)
 
-
-
 **HTTP请求方式 GET 和 POST区别：**
 
 ![](/assets/2.png)
@@ -77,29 +75,23 @@
 
 > 如 与身份认证、状态管理 &`Cache`缓存等机制相关的、`HTTP1.0`无`host`字段
 
-
-
 **4.4、HTTP处理长连接的方式**
 
 ![](/assets/8.jpg)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### 五、Socket
+
+套接字，**是应用层 与`TCP/IP`协议族通信的中间软件抽象层，表现为一个封装了 TCP / IP协议族 的编程接口（API）**
 
 #### 六、其他
 
+##### 6.1、在浏览器中输入`url`地址 -&gt;&gt; 显示主页的过程
 
+![](/assets/9.png)
+
+**6.2、Cookie 与 Session**
+
+简介：![](/assets/11.png)
+
+区别：![](/assets/tiajfaf.png)
 
